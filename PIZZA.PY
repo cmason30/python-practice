@@ -1,0 +1,11 @@
+# store info about pizzas being ordered
+pizza = {
+	'crust': 'thick',
+	'toppings': ['mushrooms', 'extra cheese'],
+}
+#summarize order
+print(f"You ordered a {pizza['crust']}-crust pizza "
+	"with the following toppings:")
+
+for topping in pizza['toppings']:
+	print("\t" + topping)
